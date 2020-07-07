@@ -85,7 +85,7 @@ struct DetailView: View {
             Button(
                 action: { viewStore.send(.buttonPressed) },
                 label: {
-                    Text("Go Back") }
+                    Text("push this for crash") }
             ).onDisappear {
                 viewStore.send(.dismiss)
             }
